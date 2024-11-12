@@ -1,5 +1,5 @@
 body {
-  background-image: url(/img/bg.jpg);
+  background-image: url(./img/bg.jpg);
   background-size: auto;
 }
 h1 {
@@ -18,9 +18,16 @@ h1 {
   font-size: 20px;
   /* độ mờ đục */
   opacity: 70%;
+  user-select: none;
 }
 h2 {
   font-size-adjust: initial;
   opacity: 0.5;
-  color: rgb(81, 34, 8);
+  color: aqua;
+  text-align: center;
+}
+
+.a3 {
+  color: brown;
+  text-transform: lowercase;
 }

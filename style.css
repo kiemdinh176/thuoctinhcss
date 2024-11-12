@@ -1,0 +1,26 @@
+body {
+  background-image: url(/img/bg.jpg);
+  background-size: auto;
+}
+h1 {
+  /* màu chữ */
+  color: green;
+  /* kiểu chữ */
+  font-style: oblique;
+  background-color: bisque;
+  /* font chữ */
+  font-family: "Times New Roman", Times, serif;
+  /* chuyển hoa thường */
+  text-transform: capitalize;
+  /* căn giữa */
+  text-align: center;
+  /* cỡ chữ */
+  font-size: 20px;
+  /* độ mờ đục */
+  opacity: 70%;
+}
+h2 {
+  font-size-adjust: initial;
+  opacity: 0.5;
+  color: rgb(81, 34, 8);
+}
